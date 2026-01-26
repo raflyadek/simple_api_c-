@@ -5,9 +5,9 @@ namespace Domain.Interface
     public interface IUserRepository
     {
         Task<User> GetByIdAsync(int id);
-        Task<User> GetAllAsync();
+        Task<List<User>> GetAllAsync();
         Task<User> CreateAsync(User user);
-        Task<User> UpdateAsync(User user);
-        Task<User> DeleteAsync(int id);
+        Task UpdateAsync(User user);
+        Task DeleteAsync(int id);
     }
 }

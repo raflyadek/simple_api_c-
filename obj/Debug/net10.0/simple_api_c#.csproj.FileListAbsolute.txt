@@ -32,3 +32,10 @@
 /Users/raflyadek/project_rafly/learn_cs/simple_api_c#/obj/Debug/net10.0/simple_api_c#.pdb
 /Users/raflyadek/project_rafly/learn_cs/simple_api_c#/obj/Debug/net10.0/simple_api_c#.genruntimeconfig.cache
 /Users/raflyadek/project_rafly/learn_cs/simple_api_c#/obj/Debug/net10.0/ref/simple_api_c#.dll
+/Users/raflyadek/project_rafly/learn_cs/simple_api_c#/bin/Debug/net10.0/EFCore.NamingConventions.dll
+/Users/raflyadek/project_rafly/learn_cs/simple_api_c#/bin/Debug/net10.0/Microsoft.EntityFrameworkCore.dll
+/Users/raflyadek/project_rafly/learn_cs/simple_api_c#/bin/Debug/net10.0/Microsoft.EntityFrameworkCore.Abstractions.dll
+/Users/raflyadek/project_rafly/learn_cs/simple_api_c#/bin/Debug/net10.0/Microsoft.EntityFrameworkCore.InMemory.dll
+/Users/raflyadek/project_rafly/learn_cs/simple_api_c#/bin/Debug/net10.0/Microsoft.EntityFrameworkCore.Relational.dll
+/Users/raflyadek/project_rafly/learn_cs/simple_api_c#/bin/Debug/net10.0/Npgsql.dll
+/Users/raflyadek/project_rafly/learn_cs/simple_api_c#/bin/Debug/net10.0/Npgsql.EntityFrameworkCore.PostgreSQL.dll
