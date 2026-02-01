@@ -4,7 +4,8 @@ using Microsoft.AspNetCore.Http.HttpResults;
 using Microsoft.AspNetCore.Mvc;
 
 namespace Controller;
-
+[ApiController]
+[Route("user")]
 public class UserController : ControllerBase
 {
     public readonly IUserService _service;
@@ -73,7 +74,7 @@ public class UserController : ControllerBase
         }
     }
 
-    [HttpGet]
+    [HttpGet("id")]
     public async Task<IActionResult> GetById(int id)
     {
         try
