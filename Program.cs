@@ -1,4 +1,8 @@
+using Application;
+using Application.Interface;
+using Domain.Interface;
 using Infrastructure.Data;
+using Infrastructure.Repositories;
 using Microsoft.EntityFrameworkCore;
 
 var builder = WebApplication.CreateBuilder(args);
@@ -14,5 +18,14 @@ builder.Services.AddDbContext<ApplicationDbContext>(opt =>
     opt.UseNpgsql(builder.Configuration.GetConnectionString("Default")
     ).UseSnakeCaseNamingConvention()
 );
+//inject service and repo with scope lifetime/per request
+builder.Services.AddScoped<IUserService, UserService>();
+builder.Services.AddScoped<IUserRepository, UserRepository>();
+builder.Services.AddEndpointsApiExplorer();
 Console.WriteLine("success connect to db");
+
+
 var app = builder.Build();
+app.MapControllers();
+//run app
+app.Run();

@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "/Users/raflyadek/project_rafly/learn_cs/simple_api_c#/simple_api_c#.csproj": {}
+    "/Users/raflyadek/project_rafly/simple_api_c#/simple_api_c#.csproj": {}
   },
   "projects": {
-    "/Users/raflyadek/project_rafly/learn_cs/simple_api_c#/simple_api_c#.csproj": {
+    "/Users/raflyadek/project_rafly/simple_api_c#/simple_api_c#.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/raflyadek/project_rafly/learn_cs/simple_api_c#/simple_api_c#.csproj",
+        "projectUniqueName": "/Users/raflyadek/project_rafly/simple_api_c#/simple_api_c#.csproj",
         "projectName": "simple_api_c#",
-        "projectPath": "/Users/raflyadek/project_rafly/learn_cs/simple_api_c#/simple_api_c#.csproj",
+        "projectPath": "/Users/raflyadek/project_rafly/simple_api_c#/simple_api_c#.csproj",
         "packagesPath": "/Users/raflyadek/.nuget/packages/",
-        "outputPath": "/Users/raflyadek/project_rafly/learn_cs/simple_api_c#/obj/",
+        "outputPath": "/Users/raflyadek/project_rafly/simple_api_c#/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/Users/raflyadek/.nuget/NuGet/NuGet.Config"
